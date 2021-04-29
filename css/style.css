@@ -1,0 +1,80 @@
+@charset "utf-8";
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #FC0FC0;
+	text-align: center;
+}
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+#header, #content, .wrapper {
+	overflow: auto;
+}
+#description, #contacts, #footer {
+	margin: 1%;
+}
+.column1, .column2, #nav {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+#nav {
+	margin-right: 0%;
+}
+h1 {
+	font-size: 50px
+}
+strong {
+	font-size: 20px;
+}
+li {
+	display: inline;
+	padding: 0.5em;
+}
+#footer {
+	background-color: #00BFFF;
+	padding: 0.5em 0;
+}
+#nav {
+	height: 5em;
+	margin-bottom: 1em;
+	background-color: #00BFFF;
+}
+#description {
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+}
+.wrapper {
+	width: 1020px;
+	margin: 0px auto;
+}
+.header {
+	margin: 40px 0px 20px 0px;
+}
+.entry {
+	width: 320px;
+	float: left;
+	margin: 10px;
+	height: 298px;
+	background-color: #808080;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+figure {
+	display: block;
+	width: 302px;
+	height: 270px;
+	background-color: #00BFFF;
+	padding: 9px;
+	margin: 0px;
+}
+figure img {
+	width: 300px;
+	height: 250px;
+	border: 1px solid #808080;
+}
+figcaption {
+	padding-left: 20px;
+}
